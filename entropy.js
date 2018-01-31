@@ -1,6 +1,6 @@
 // lyrics to 1612
 // var lyrics = "It's a tzimmes But you need to t'set it Sometimes I write a little song So you don't forget it Sometimes I write a little song To remember the lyrics 1612 That's the code to my heart One six, one two Star Aquarion Ford Taurus A strike on the box Ford Focus Roberta Flack, Donnie Hathaway Frank Sinatra 1612 That's the code to my heart One six, one two Star — 1612 That's the code to my heart One six, one two Star Peace of mind Oh, friend of mine 1612 That's the code to my heart I go,One six, one two Star I go,1612 IThat's the code to my heart One six, one two Star Igo,1612 That's the code to my heart I go,One six, one two Star 1612 That's the code to my heart I go,One six, one two..... Star 1612 That's the code to my heart One six, one two Star 1612 That's the code to my heart One six, one two Star 1612 Is the key, the key.... 1612 That's the code to my heart You better never ever forget it.......";
-// var lyrics = "a b a b i a b"
+// var lyrics = "1 1 1 1 1 1 1 1 1 1"
 // var lyrics = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 "
 // lyrics to gucci gang
 var lyrics = "Gucci Gang, ooh, yeah, Lil Pump, yeah, Gucci Gang, ooh Gucci gang, Gucci gang, Gucci gang, Gucci gang Gucci gang, Gucci gang, Gucci gang (Gucci gang!) Spend ten racks on a new chain My bitch love do cocaine, ooh I fuck a bitch, I forgot her name I can't buy a bitch no wedding ring Rather go and buy Balmains Gucci gang, Gucci gang, Gucci gang (Gucci gang!) Gucci gang, Gucci gang, Gucci gang, Gucci gang Gucci gang, Gucci gang, Gucci gang (Gucci gang!) Spend ten racks on a new chain My bitch love do cocaine, ooh I fuck a bitch, I forgot her name, yeah I can't buy no bitch no wedding ring Rather go and buy Balmains, aye Gucci gang, Gucci gang, Gucci gang My lean cost more than your rent, ooh Your mama still live in a tent, yeah Still slanging… "
@@ -65,5 +65,5 @@ var uniqueWordsArray = uniq(words);
 var H = shannon_entropy(uniqueWordsArray,words)
 console.log("uniqueWordsArray", uniqueWordsArray)
 console.log("shannon_entropy: ", H);
-console.log("normalized: ", metric_entropy(H,uniqueWordsArray))
+console.log("metric entropy: ", metric_entropy(H,uniqueWordsArray))
 console.log("Number of bits needed: ", number_of_bits_needed(H))
